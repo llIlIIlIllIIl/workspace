@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 def scrape_weather():
-    print("[강서구 방화1동]\n")
+    print("[***secret***]\n")
     url = "https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EC%84%9C%EC%9A%B8+%EA%B0%95%EC%84%9C%EA%B5%AC+%EB%B0%A9%ED%99%941%EB%8F%99+%EB%82%A0%EC%94%A8&oquery=%EC%84%9C%EC%9A%B8+%EB%82%A0%EC%94%A8&tqi=hX5igsp0JywssDPnzTwssssssPw-204156"
     res = requests.get(url)
     res.raise_for_status()
